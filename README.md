@@ -9,3 +9,4 @@
 - css
 - flexbox/grids/bootstrap
 - git/github
+- diseño responsive

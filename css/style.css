@@ -11,7 +11,10 @@
     font-size: 20px;
 }
 
-
+.pindex {
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 10px;
+}
 
 .fondo-mio {
     background-color: white;
@@ -57,12 +60,16 @@
     justify-content: center;
     text-align: center;
     height: 18.75rem;
-    padding: 6.25rem
+    padding: 1.25rem
 }
 .background-mio {
     background-image: url(../assets/img/navbar.jpg);
     
     
+}
+
+.h1index {
+    font-size: 150px;
 }
 
 .footer-index {
@@ -91,6 +98,11 @@
 .seccion-formularios {
 background-color: black;
     padding: 50px;
+}
+
+.border {
+    border-radius: 5px;
+    
 }
 
 .seccion-carrusel {
@@ -200,4 +212,30 @@ background-color: black;
 
 .footer-form {
     background-color: black;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.claseprueba {
+    color: white;
+}
+
+
+.fondofooter {
+    background-image: url(../assets/img/navbar.jpg);
+    background-size: contain;
+    
+}
+
+
+.seccion-footer {
+    display: flex;
+    justify-content:center;
+    gap: 12.5rem;
+}
+
+.h3form {
+    color: white;
 }
