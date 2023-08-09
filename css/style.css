@@ -1,0 +1,203 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+
+
+.fondo-mio {
+    background-color: white;
+}
+
+
+.header-index {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+.header-index .nav-links {
+    
+    text-decoration: none;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding-left: 1.5625rem;
+    
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 7px;
+}
+
+
+.header-index .logo img {
+    height: 55px;
+}
+.section-uno {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 18.75rem;
+    padding: 6.25rem
+}
+.background-mio {
+    background-image: url(../assets/img/navbar.jpg);
+    
+    
+}
+
+.footer-index {
+ background-image: url(../assets/img/navbar.jpg);    
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 1.25rem;
+    padding-left: 20px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+}
+.background-mio {
+    background-color: white;
+}
+
+.seccion-formularios {
+background-color: black;
+    padding: 50px;
+}
+
+.seccion-carrusel {
+    background-color: black;
+    padding: 1.25rem;
+    
+}
+
+.seccion-carrusel p {
+    color: white;
+    letter-spacing: 5px;
+}
+
+.color-navbar li a {
+    color: white;
+    
+}
+
+.galeria-grids {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    grid-template-areas: 
+    
+    
+    "div1 div2 div3 div4"
+    
+
+;
+}
+
+.galeria-grids {
+    width: 100%;
+    height: 100%;
+
+}
+
+.galeria-grids div {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.div1 {
+    grid-area:div1 ;
+    margin-left: 10px;
+}
+.div2 {
+    grid-area: div2;
+}
+
+.div3 {
+    grid-area: div3;
+}
+.div4 {
+    grid-area: div4;
+}
+    
+
+
+.fondo-productosuno {
+    background-image: url(../assets/img/navbar.jpg);
+    
+    height: 70px;
+}
+
+.mainhoodie {
+    background-color: black;
+}
+
+.card {
+    width: 13em;
+    height: 355px;
+    border: .0625rem solid grey;
+    background-color:white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+
+}
+
+.grilla-talles {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer-form {
+    background-color: black;
+}
