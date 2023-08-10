@@ -8,7 +8,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
+    border: red solid 2px;
+
 }
 
 .pindex {
@@ -73,10 +74,8 @@
 }
 
 .footer-index {
- background-image: url(../assets/img/navbar.jpg);    
- background-size: cover;
- background-repeat: no-repeat;
- height: 100px;
+background-image: url(../assets/img/navbar.jpg);    
+
 }
 
 .navbar {
@@ -226,8 +225,9 @@ background-color: black;
 
 .fondofooter {
     background-image: url(../assets/img/navbar.jpg);
-    background-size: contain;
     
+    padding-top: 50px;
+    justify-content: center;
 }
 
 
@@ -236,10 +236,19 @@ background-color: black;
 .seccion-footer {
     display: flex;
     justify-content:center;
-    gap: 12.5rem;
+    gap: 1rem;
+    
+    
 }
 
 .h3form {
     color: white;
 }
+@media(max-width:425px){
+    main .card-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
 
+    }
+}
